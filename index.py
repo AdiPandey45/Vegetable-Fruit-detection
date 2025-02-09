@@ -6,7 +6,7 @@ from playsound import playsound
 
 video = cv2.VideoCapture(0)
 labels = []
-
+ 
 while True:
     ret, frame = video.read()
     bbox, label, conf = cv.detect_common_objects(frame)
